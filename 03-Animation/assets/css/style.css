@@ -1,0 +1,80 @@
+.commonAnimation{
+  padding: 20px;
+  border-radius: 5px;
+  margin: 30px;
+  height: 300px;
+}
+.commonAnimation>h1{
+    text-align: center;
+    /* color: white; */
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #000;
+}
+.animation1{
+    background: #000;
+    /* animation: abhishek;
+    animation-duration: 10s;
+    -o-animation-iteration-count: infinite; */
+    animation: abhishek 10s infinite;
+}
+@keyframes abhishek {
+ from { background-color: red;   
+ }
+ to {
+    background-color: blue;
+ }
+}
+.animation2{
+    background: url(../images/desktop.jpg) no-repeat center;
+    background-size: 100%;
+    animation: animation_image 10s infinite;
+}
+@keyframes animation_image {
+    from{
+        background: url(../images/desktop.jpg) no-repeat top; color: red
+    }
+    to{
+        background: url(../images/banner.jpg) no-repeat bottom; color: green;
+    }
+}
+.animation3{
+  background: #fc466B;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  animation: cssAnimation3 10s infinite;
+}
+@keyframes cssAnimation3{
+    0%{
+      top: 0px;
+      left: 0px;
+      background: #fc466B;
+      color: #000;
+    }
+    25%{
+      top: 0px;
+      left: 600px;
+      background: cadetblue;
+      color: red;
+    }
+    50%{
+      top: 400px;
+      left: 600px;
+      background: chartreuse;
+      color: #0575e6;
+    }
+    75%{
+      top: 400px;
+      left: 0px;
+      background: teal;
+      color: yellow;
+    }
+    100%{
+        top: 0px;
+      left: 0px;
+      background: #fc466B;
+      color: #000;
+    }
+}

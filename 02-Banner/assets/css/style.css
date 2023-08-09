@@ -64,18 +64,20 @@ header > nav > ul > li:hover a {
   background: linear-gradient(rgba(158, 15, 113, 0.3), rgba(128, 0, 2, 0.3)), url(../images/skyscraper.jpeg)no-repeat center;
   background-size: cover;
 }
-.banner7{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-  opacity: 54;
-  background: url(../media/animalVideo.mp4);
+.banner7>div{
+ position: absolute;
+ top: 15%;
+ left: 35%;
 }
-/*   */
+banner7{
+  position: relative;
+}
+#bgVideo{
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 .banner8{
   background: -o-linear-gradient(black,green);
   background: -moz-linear-gradient(black,red);
