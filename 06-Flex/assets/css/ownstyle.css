@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rebeccapurple;
+}
+.container>.item{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: burlywood;
+    text-align: center;
+}
+.nestedcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nesteditem{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: crimson;
+    text-align: center;
+}

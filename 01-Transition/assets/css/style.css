@@ -39,7 +39,7 @@ section{
  transition: width 2s;
 }
 .common:hover{
- width: 100px;;
+ width: 100px;
  background-color: gold;
 }
 #d1{transition-timing-function: linear;}  /*cubic-bezier(0,0,1,1) */

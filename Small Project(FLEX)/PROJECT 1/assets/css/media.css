@@ -23,6 +23,12 @@
   .container {
     flex-flow: column;
   }
+  .finance>.container{
+    flex-flow: column nowrap;
+  }
+  .second{
+    flex: 1;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {

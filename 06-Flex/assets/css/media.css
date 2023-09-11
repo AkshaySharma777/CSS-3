@@ -9,7 +9,7 @@
 }
 
 /* TABLET VERSION */
-@media(min-width:769) and (max-width:1200){
+@media(min-width:769px) and (max-width:1200px){
   .container>.item{
     width: 43%;
   }

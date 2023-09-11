@@ -10,7 +10,7 @@
   --bg-brown: #ff521a;
   --txt-brown: #ff521a;
 }
-.banner, .business {
+.banner, .business, .finance {
   background: linear-gradient(rgba(55, 57, 69, 0.8), rgba(55, 57, 69, 0.8)),
     url(../images/Desktop.jpg) no-repeat center;
   background-size: 100%;
@@ -176,3 +176,160 @@ table tr:nth-child(3)>td:first-child,table tr:nth-child(3)>td:first-child,table 
 table tr:first-child th:first-child{
   color: #ff521a;
 }
+
+.finance{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+.finance>.container{
+  gap: 20px;
+}
+ #girl{
+  margin-left: -50px;
+  margin-top: -25px;
+  margin-bottom: 0%;
+  padding: 0%;
+  height: 600px;
+}
+.second{
+  padding: 50px;
+  margin-top: 0px;
+
+  padding-right: 50px;
+}
+.second>h4{
+  color:#ff521a;
+  font-size: 18px;
+
+ 
+}
+.second>h1{
+  color:#fff;
+  font-size: xx-large;
+
+ 
+}
+.second>form{
+  margin-top: 80px;
+  padding-bottom: 10px;
+}
+.second>form>table td{
+padding-bottom: 30px;
+ 
+}
+.finance{
+  height: 575px;
+}
+.second>form>table th{
+  text-align: left;
+  color: #fff;
+
+  font-size: 15px;
+
+  }
+
+  [type="email"]{
+    margin-left: 20px;
+    width: 220px;
+}
+[id="name1"]{
+    width: 220px;
+}
+#eml{
+    padding-left: 20px;
+}
+.second>form>table tr td>input{
+  border-radius: 5px;
+  height:30px;
+  background-color: #5E697B;
+  color: white;
+  border: transparent;
+  
+
+   
+  }
+  [name="subject"], [name="choose"]{
+    width:480px;
+    color: #fff;
+}
+[type="button"]{
+  background-color: #ff521a;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius:8px ;
+}
+
+
+
+.testimonials{
+  padding: 80px 100px;
+}
+.testimonials>center>h5{
+  color: var(--txt-brown);
+}
+.testimonials>.container{
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+  margin: 40px 60px;
+  height: 260px;
+}
+#boy{
+  height:265px;
+    width: 258px;
+    border-radius: 10px;
+
+}
+.fa-quote-left{
+  background-color: #43ba80;
+  color: #fff;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.testimonials>.container>.card>p{
+  font-style: italic;
+  padding: 10px 40px;
+  padding-right: 0px;
+  margin-top: 10px;
+}
+.testimonials>.container>.card>h2{
+  padding: 15px 40px;
+}
+.testimonials>.container>.card>h5{
+  color: var(--bg-green);
+  padding-left: 40px;
+  margin-top: -10px;
+}
+.fa-ellipsis{
+  color: var(--bg-brown)
+}
+
+
+.company{
+  padding: 50px 100px;
+  background-color: #222842;
+} 
+.comapany>img:first-child{
+  padding-left: 25px;
+}  
+.comapany>img:last-child{
+  padding-left: 25px;
+}  
+.company>img{
+  padding-right: 22px;
+  width: 171px;
+}
+
+   /* Footer Section */
+
+footer{
+  background-color: #181D30;
+  color: #fff;
+}    
+#creator{
+  color:var(--txt-brown);
+ }
