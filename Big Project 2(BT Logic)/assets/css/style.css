@@ -1,0 +1,285 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* BOOTSTRAP GRID LOGIC */
+.col1 {
+    width: 8.33%;
+}
+
+.col2 {
+    width: 16.66%;
+}
+
+.col3 {
+    width: 25%;
+}
+
+.col4 {
+    width: 33.33%;
+}
+
+.col5 {
+    width: 41.66%;
+}
+
+.col6 {
+    width: 50%;
+}
+
+.col7 {
+    width: 58.33%;
+}
+
+.col8 {
+    width: 66.66%;
+}
+
+.col9 {
+    width: 75%;
+}
+
+.col10 {
+    width: 83.33%;
+}
+
+.col11 {
+    width: 91.66%;
+}
+
+.col12 {
+    width: 100%;
+}
+/* .row::after{
+  content: " ";
+  display: block;
+  clear: both;
+} */
+/* MARGIN AND PADDING */
+.mx-50 {
+    margin: auto 50px;
+}
+.my-10{
+    margin: 10px auto;
+}
+.my-50 {
+    margin: 50px auto;
+}
+
+.mx-20{
+    margin: auto 20px;
+}
+
+.ml-200{
+  margin-left: 200px;
+}
+
+.mx-200 {
+  margin: auto 200px;
+}
+
+.my-20 {
+    margin: 20px auto;
+}
+
+.m-50 {
+    margin: 50px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.px-20 {
+    padding: auto 20px;
+}
+
+.px-50 {
+    padding: auto 50px;
+}
+
+.py-50 {
+    padding: 50px auto;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.px-20 {
+    padding: auto 20px;
+}
+
+.py-15 {
+    padding: 15px auto;
+}
+
+.py-20 {
+    padding: 20px auto;
+}
+
+.pl-270{
+    padding-left: 320px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pxy {
+    padding: 230px 300px;
+}
+
+/* LINE HIEGHT */
+.ln-1point5 {
+    line-height: 1.5;
+}
+
+.ln-2 {
+    line-height: 2;
+}
+
+/* COLORS */
+.bg-purple {
+    background: #6F6EE2;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-blue {
+    background: #1DC9E3;
+}
+
+.bg-black {
+    background: black ;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-blue {
+    color: #1DC9E3;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-purple {
+    color:#6f6ee2;    
+}
+
+/* TEXT ALIGNMENT */
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+/* header code */
+
+header>nav{
+    padding: 30px;
+}
+head>nav>a{
+  font-size: 25px;
+  font-weight: bold;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display:inline-block; 
+    padding-left: 30px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+}
+header>nav>ul>li>a:hover{
+    color: brown
+}
+
+/* first part  */
+.container1{
+    background: linear-gradient(to bottom right, rgba(138, 95, 225, 0.85), rgba(86, 127, 230, 0.86)), url(../images/home-bg.jpg) no-repeat center;
+    background-size: cover;
+   height: 700px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.holder1>img{
+   height: 280px;
+}
+
+.holder2>h1{
+  font-size: 47px;
+}
+.holder2>p{
+  color: rgba(255, 255, 255, 0.5);
+  word-spacing: 2px;
+  font-size: 20px;
+}
+.holder2>button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+/* container2 welcome to new app */
+ .container2{
+    height: 500px;
+ }
+ .container2>h1{
+    font-size: 40px;
+ }
+ .box2{
+    display: inline-block;
+ }
+ .profilePic1, .profilePic2{
+    height: 200px;
+}
+.profilePic1{
+    background: url(../images/team-img1.jpg) no-repeat center;
+    background-size: cover;
+}
+.profilePic2{
+    background: url(../images/team-img2.jpg) no-repeat center;
+    background-size: contain;
+}
+ 
